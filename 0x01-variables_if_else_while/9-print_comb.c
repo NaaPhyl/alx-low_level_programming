@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Print single digit numbers in the formart
+ * main - Print single digit numbers in the format
  *
  * Description: Separated by commas
  * Return: Always(0) Success
@@ -20,7 +20,6 @@ int main(void)
 		if (a != 57)
 		{
 			putchar(',');
-			putchar(' ');
 		}
 		putchar('\n');
 
