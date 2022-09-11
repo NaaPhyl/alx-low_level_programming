@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Print single digit numbers in the format
@@ -16,13 +14,12 @@ int main(void)
 	for (a = 48; a < 58; a++)
 	{
 		putchar(a);
+	}
 		if (a != 57)
 		{
 			putchar(',');
-			putchar(" ");
-			
 		}
-	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+
+		return (0);
 }
