@@ -6,7 +6,7 @@
  *Return:nothing
  */
 
-void puts_half(char *strn)
+void puts_half(char *str)
 {
 
 	int i, n;
