@@ -6,7 +6,7 @@
  *Return:nothing
  */
 
-void puts_half(char *str[n])
+void puts_half(char *strn)
 {
 
 	int i, n;
@@ -20,7 +20,7 @@ void puts_half(char *str[n])
 	n = i / 2;
 	while (n <= i)
 	{
-		_putchar(str[n]);
+		_putcha`r(str[n]);
 		n++;
 
 	}
