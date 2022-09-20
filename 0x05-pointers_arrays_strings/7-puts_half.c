@@ -5,7 +5,7 @@
  * @str: input string.
  * Return: void.
  */
-void putschar_half(char *str)
+void putchar_half(char *str)
 {
 	int length = 0, n;
 
