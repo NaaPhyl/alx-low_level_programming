@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-int main(void)
-{
+void print_number(int n)
+
 int n;
 int a[5];
 int *p;
