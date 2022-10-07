@@ -13,6 +13,7 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+
 	int i = 0, l = 0;
 		char *p
 
@@ -29,6 +30,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		p[i] = 0;
 		i++;
-	}
+
 	return (p);
 }
