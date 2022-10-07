@@ -1,4 +1,6 @@
-#include main.h
+#include "main.h"
+#include <stdio>
+#include <stdlib.h>
 
 /**
  * malloc checked - array that prints a string
@@ -16,5 +18,5 @@ void *malloc_checked(unsigned int b)
 	exit(98);
 	}
 
-	return(p);
+	return (p);
 }
