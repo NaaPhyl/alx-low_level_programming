@@ -94,4 +94,4 @@ char *_strstr(char *haystack, char *needle);
 
 
 
-#endif
+#endif /* _MAIN_H_ */
